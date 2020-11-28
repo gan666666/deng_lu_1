@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp">
+ <LinearLayout
+     android:layout_width="200dp"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="97dp"
+         android:text="憨憨一号"
+         android:textSize="45dp"
+         android:gravity="center"
+         android:background="#8258FA"/>
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="300dp"
+         android:src="@drawable/caixin" />
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:src="@drawable/huaji"
+         />
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="村舍外，古城旁。杖藜徐步转斜阳。殷勤昨夜三更雨，又得浮生一日凉。"
+            android:textSize="30dp"
+            android:textColor="#0000FF"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
